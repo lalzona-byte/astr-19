@@ -7,8 +7,6 @@ def main():
 	x_entries = np.linspace(0,2*np.pi,1000)
 	y_entries = np.sin(x_entries)
 
-	print(f"{'x':>10} {'sin(x)':>10}")
-	print("-" * 22)
 
 	for x, y in zip(x_entries, y_entries):
 		print(f"{x:f} {y:f}")
